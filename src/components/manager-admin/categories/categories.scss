@@ -1,0 +1,42 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.categories {
+  margin: 0;
+  .col {
+    @media (max-width: 575px) {
+      padding: 0;
+    }
+
+    .keyboard {
+      font-size: 0.9rem;
+    }
+
+    .category-search {
+      .form-control {
+        background-color: v.$color8;
+        height: 3rem !important;
+      }
+    }
+
+    .btn-search {
+      &:hover {
+        background-color: v.$color5 !important;
+      }
+    }
+  }
+  .new-category {
+    &:hover {
+      background-color: v.$color10 !important;
+    }
+  }
+  @media (max-width: 575px) {
+    margin: 0;
+  }
+
+  .categories-show {
+    .rdt_TableHeadRow {
+      border-bottom: none;
+    }
+  }
+}

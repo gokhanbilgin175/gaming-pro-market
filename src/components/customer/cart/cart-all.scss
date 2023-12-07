@@ -1,0 +1,42 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.cart-all {
+  display: inline-block;
+  background-color: v.$color1;
+  position: fixed;
+  right: 0;
+  top: 20rem;
+  width: 9rem;
+  padding: 0.7rem 0;
+  @include m.flexbox(column, space-between, center, 1rem);
+  border-radius: 10px 0 0 10px;
+  z-index: 999;
+  cursor: pointer;
+  text-decoration: none;
+
+  .cart-top {
+    color: v.$color4;
+    @include m.flexbox(row, space-between, center, 0.5rem);
+
+    svg {
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .cart-price {
+    p {
+      color: v.$color1;
+      background-color: v.$color4;
+      padding: 0.3rem 1.2rem;
+      border-radius: 5px;
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}

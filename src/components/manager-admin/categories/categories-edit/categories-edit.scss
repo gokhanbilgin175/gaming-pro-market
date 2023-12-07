@@ -1,0 +1,38 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.category-edit {
+  .keyboard-edit {
+    font-size: 0.9rem;
+  }
+
+  .input-category-search {
+    margin-top: 3rem;
+
+    .input-search {
+      background-color: v.$color8 !important ;
+    }
+    .active-btn {
+      input {
+        background-color: v.$color8;
+        font-size: 2rem;
+        padding: 1rem 0;
+
+        &:checked {
+          background-color: v.$color2;
+        }
+      }
+    }
+  }
+  .btn-category-edit {
+    .btn-group-edit {
+      @include m.flexbox($justify-content: flex-end, $gap: 1rem);
+      margin-top: 1rem;
+      padding-left: 30rem;
+
+      .btn-delete {
+        color: v.$color9;
+      }
+    }
+  }
+}

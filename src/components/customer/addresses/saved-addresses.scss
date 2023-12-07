@@ -1,0 +1,80 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.saved-address-box {
+  background-color: v.$color9;
+  border-radius: 5px;
+  padding: 1rem 1rem 0 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  @include m.flexbox($direction: column);
+  align-items: stretch;
+
+  .saved-addresses {
+    @include m.flexbox(
+      $justify-content: space-between !important,
+      $align-items: center
+    );
+
+    .address-title {
+      font-weight: 300;
+      color: v.$color1;
+    }
+
+    .address-detail {
+      font-weight: 300;
+      color: v.$color3;
+    }
+
+    .saved-address-box-buttons {
+      .btn {
+        color: v.$color2;
+        font-size: 1.2rem;
+
+        &:hover {
+          color: v.$color1;
+        }
+      }
+    }
+  }
+
+  .edit-address-form {
+    background-color: v.$color9;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    .form-control {
+      border-radius: 5px !important;
+    }
+
+    .form-second-row {
+      @include m.flexbox($justify-content: space-between, $gap: 1rem);
+      flex-wrap: wrap;
+
+      @media (max-width: 650px) {
+        @include m.flexbox($direction: column);
+        align-items: stretch;
+      }
+
+      .second-row-input {
+        flex: 1;
+      }
+    }
+
+    .btn-confirm-cancel-box {
+      .btn {
+        color: v.$color2;
+        font-size: 1.2rem;
+
+        &:hover {
+          color: v.$color1;
+        }
+      }
+    }
+  }
+}
+
+.bg-active {
+  background-color: v.$color4;
+}

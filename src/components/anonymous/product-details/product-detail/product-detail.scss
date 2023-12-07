@@ -1,0 +1,122 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+.product-detail {
+  padding: 1rem;
+  margin: 0;
+
+  .row {
+    @media (max-width: 768px) {
+      @include m.flexbox($justify-content: center, $align-items: center);
+    }
+  }
+
+  [class^="col-"]:first-child {
+    flex-wrap: wrap;
+    @media (max-width: 768px) {
+      @include m.flexbox($justify-content: center, $align-items: center);
+    }
+
+    .active-image {
+      height: 450px;
+      border: none;
+      background-color: v.$color9;
+      @include m.flexbox($align-items: center, $justify-content: center);
+      margin-bottom: 10px;
+      @media (max-width: 768px) {
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+      }
+    }
+    .product-images-sliders {
+      @include m.flexbox($gap: 1rem);
+      cursor: pointer;
+      margin-bottom: 5px;
+
+      .product-image-slider {
+        width: 25%;
+        margin-top: 10px;
+        border: none;
+
+        img {
+          padding: 5px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+.right {
+  padding: 0.5rem 3rem;
+  flex-wrap: wrap;
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    padding: 3rem;
+    @include m.flexbox($align-items: center, $justify-content: center);
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  .star {
+    span:first-child {
+      color: v.$color2;
+      font-size: 1.2rem;
+    }
+    > p {
+      margin-top: 2.4rem;
+      margin-bottom: 0;
+      font-size: 1.2rem;
+    }
+
+    .discount {
+      @include m.flexbox($justify-content: space-between);
+      margin-bottom: 1.5rem;
+      p {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+      span {
+        font-size: 1.8rem;
+        color: v.$color2;
+        background-color: rgb(204, 200, 200);
+        width: 3rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        text-align: center;
+      }
+    }
+
+    .add-cart {
+      background-color: v.$color2;
+      border-color: v.$color2;
+      border-radius: 3px;
+      width: 100%;
+      height: 6vh;
+      padding: 5px;
+      margin: 2rem 0;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      text-align: center;
+      @media (max-width: 768px) {
+        width: 60%;
+        margin: 0.5rem 4rem;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+
+    .end {
+      color: v.$color3;
+      background-color: rgb(253, 251, 251);
+      padding: 2rem;
+
+      @media (max-width: 768px) {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}

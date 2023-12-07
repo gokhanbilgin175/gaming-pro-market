@@ -1,0 +1,80 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.orders-list {
+  [class^="col"] {
+    &:first-child {
+      font-size: 0.9rem;
+    }
+  }
+
+  .searchbar {
+    .searchbar-input {
+      background-color: v.$color7 !important;
+      height: 3rem;
+    }
+
+    .btn-search {
+      &:hover {
+        background-color: v.$color2;
+        border-color: v.$color2;
+      }
+
+      svg {
+        color: v.$color9 !important;
+      }
+    }
+  }
+
+  .second-row {
+    @include m.flexbox($gap: 1rem);
+    margin: 2rem 0rem 2rem 0rem;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+
+      .input-group-text {
+        width: 8rem;
+        font-size: 1rem !important;
+      }
+    }
+
+    .input-group-text {
+      font-weight: 300;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+    }
+
+    .form-control {
+      height: 3rem;
+      background-color: v.$color7;
+    }
+
+    .form-select {
+      height: 3rem;
+      background-color: v.$color7;
+    }
+
+    .date-input {
+      flex: 2;
+    }
+
+    .status {
+      flex: 1;
+    }
+  }
+
+  .orders-list-table {
+    .rdt_TableHeadRow {
+      font-size: 1rem;
+    }
+
+    .rdt_TableRow {
+      font-size: 1rem !important;
+      &:hover {
+        background-color: v.$color4 !important;
+        cursor: pointer;
+      }
+    }
+  }
+}

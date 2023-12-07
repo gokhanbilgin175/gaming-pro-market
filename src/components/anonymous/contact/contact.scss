@@ -1,0 +1,61 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.contact {
+  .contact-info-1 {
+    [class^="col-"] {
+      @include m.flexbox(column, center, center);
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        a {
+          font-size: small;
+        }
+      }
+
+      div {
+        @include m.flexbox(column, center, center);
+        background-color: v.$color8;
+        width: 180px;
+        min-width: 180px;
+        padding: 1rem;
+        padding-top: 3rem;
+        border-radius: 1rem;
+        position: relative;
+
+        svg {
+          background-color: v.$color2;
+          color: v.$color4;
+          font-size: 4rem;
+          border-radius: 5rem;
+          padding: 1rem;
+          position: absolute;
+          bottom: 3.3rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .contact-info-2 {
+    text-align: center;
+
+    img {
+      width: 300px;
+      min-width: 100px;
+    }
+
+    p {
+      color: v.$color3;
+      text-align: end;
+
+      @media (max-width: 768px) {
+        text-align: justify;
+      }
+    }
+  }
+}

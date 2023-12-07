@@ -1,0 +1,100 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+.user-edit-form {
+  .first-last-name {
+    @include m.flexbox($gap: 1rem);
+
+    @media (max-width: 750px) {
+      @include m.flexbox($direction: column);
+      align-items: stretch;
+    }
+  }
+
+  .form-label {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    background-color: v.$color8 !important;
+    height: 2.8rem;
+    margin-top: -0.5rem;
+  }
+
+  .third-row {
+    @include m.flexbox($gap: 1rem);
+
+    .input {
+      flex: 1;
+    }
+
+    @media (max-width: 750px) {
+      @include m.flexbox($direction: column);
+      align-items: stretch;
+
+      .input {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .roles {
+    p {
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+
+    .role-checkbox {
+      @include m.flexbox($gap: 1rem);
+      font-weight: 300;
+      font-size: 0.9rem;
+      margin-top: -15px;
+    }
+  }
+}
+
+.user-edit-buttons {
+  margin-top: 2rem;
+  text-align: right;
+
+  @media (max-width: 484px) {
+    @include m.flexbox($direction: column);
+    align-items: stretch;
+
+    .btn-delete {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .btn-save {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+
+  .btn {
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0.4rem 3.5rem;
+  }
+
+  .btn-delete {
+    margin-right: 0.6rem;
+    color: v.$color9;
+    &:hover {
+      background-color: v.$color1;
+      border-color: v.$color1;
+      color: v.$color9;
+    }
+  }
+
+  .btn-save {
+    color: v.$color9;
+    &:hover {
+      background-color: v.$color2;
+      border-color: v.$color2;
+      color: v.$color9;
+    }
+  }
+}

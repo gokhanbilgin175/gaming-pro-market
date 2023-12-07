@@ -1,0 +1,88 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.register-form {
+  border: 1px solid v.$color4;
+  text-align: center;
+  @include m.flexbox($direction: column, $align-items: center, $gap: 1rem);
+
+  p {
+    margin: 0;
+  }
+
+  .form-control {
+    padding-left: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .card-body {
+    text-align: center;
+    width: 30rem;
+
+    @media (max-width: 500px) {
+      width: 21rem;
+    }
+
+    .input-group {
+      position: relative;
+
+      .invalid-feedback {
+        text-align: start;
+      }
+    }
+
+    span.input-icon {
+      position: absolute;
+      font-size: 1.5rem;
+      color: v.$color1;
+      left: 10px;
+      top: -2px;
+      z-index: 999;
+    }
+
+    .card-title {
+      color: v.$color3;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+  }
+
+  input {
+    background-color: rgb(236, 234, 234);
+  }
+
+  .btn-login {
+    background-color: v.$color3;
+    color: v.$color4;
+    border: v.$color3;
+    border-radius: 3px;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 5rem;
+
+    &:hover {
+      color: v.$color4;
+    }
+  }
+
+  .link {
+    color: v.$color2;
+  }
+
+  .btn-register {
+    background-color: v.$color2 !important;
+    border: v.$color3;
+    color: v.$color4 !important;
+    border-radius: 3px;
+    margin: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 5.5rem;
+
+    &:hover {
+      background-color: v.$color1 !important;
+    }
+  }
+}

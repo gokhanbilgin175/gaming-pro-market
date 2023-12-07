@@ -1,0 +1,139 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.admin-reports {
+  [class^="col"] {
+    &:first-child {
+      font-size: 0.9rem;
+      svg {
+        font-size: 1.2rem;
+      }
+    }
+
+    &:nth-child(3) {
+      .admin-reports-all {
+        .admin-reports-left {
+          .form-control {
+            @media (max-width: 500px) {
+              width: 11rem;
+            }
+          }
+        }
+
+        .admin-reports-right {
+          height: fit-content;
+          padding: 2rem;
+
+          @media (min-width: 768px) and (max-width: 1555px) {
+            height: fit-content;
+          }
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .admin-reports-all {
+        .admin-reports-right {
+          height: fit-content;
+          padding: 2rem;
+
+          @media (min-width: 768px) and (max-width: 1555px) {
+            height: fit-content;
+          }
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      .admin-reports-all {
+        .admin-reports-right {
+          height: fit-content;
+          padding: 2rem;
+
+          @media (min-width: 768px) and (max-width: 1555px) {
+            height: fit-content;
+          }
+        }
+      }
+    }
+  }
+
+  .card {
+    background-color: v.$color8;
+    border-color: v.$color8;
+    border-radius: 5px;
+    margin-top: 48px;
+  }
+
+  margin-bottom: 100px;
+
+  p {
+    margin: 0;
+  }
+
+  .admin-reports-all {
+    @include m.flexbox(row, space-between, flex-start, 0.5rem);
+
+    .admin-reports-left {
+      @include m.flexbox(column);
+
+      p {
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .form-control {
+        width: 20rem;
+
+        @media (max-width: 500px) {
+          width: 10rem;
+        }
+      }
+
+      .form-select {
+        width: 20rem;
+        color: v.$color3;
+
+        @media (max-width: 500px) {
+          width: 10rem;
+        }
+      }
+
+      .input-group {
+        gap: 1rem;
+        padding-left: 2rem;
+
+        @media (max-width: 335px) {
+          padding-left: 1rem;
+        }
+      }
+    }
+
+    .admin-reports-right {
+      @include m.flexbox(column, center);
+      background-color: lightgrey;
+      height: 158px;
+      padding: 2rem;
+
+      @media (min-width: 1400px) and (max-width: 1555px) {
+        height: 228px;
+        padding: 5rem;
+      }
+
+      @media (min-width: 768px) and (max-width: 1400px) {
+        height: 318px;
+        padding: 5rem;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+
+      svg {
+        font-size: 5rem;
+        stroke-width: 1;
+      }
+    }
+  }
+}

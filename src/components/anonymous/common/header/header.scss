@@ -1,0 +1,68 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+.top-menu-nav {
+  @media (max-width: 991px) {
+    background-color: v.$color11 !important;
+  }
+
+  .shop-link {
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 500px;
+
+    @media (max-width: 1062px) {
+      width: 400px;
+    }
+
+    @media (max-width: 568px) {
+      width: 300px;
+    }
+
+    @media (max-width: 468px) {
+      width: 250px;
+    }
+
+    @media (max-width: 418px) {
+      width: 200px;
+    }
+
+    @media (max-width: 367px) {
+      width: 175px;
+    }
+  }
+
+  .navbar-nav {
+    a {
+      @include m.flexbox($align-items: center, $gap: 0.5rem);
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+
+    .active {
+      color: v.$color2 !important;
+    }
+  }
+
+  .btn-account a {
+    padding: 0.3rem 1.3rem;
+    margin-left: 1.7rem;
+    @include m.flexbox($align-items: center);
+
+    @media (max-width: 991px) {
+      margin-left: 0;
+    }
+
+    &:hover {
+      background-color: v.$color2;
+      border-color: v.$color2;
+    }
+  }
+
+  // bu kod butonun strech olmasini engellemek icin
+  .btn-account {
+    @include m.flexbox();
+  }
+}

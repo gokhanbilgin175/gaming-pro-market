@@ -1,0 +1,72 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.orders-page {
+  background-color: v.$color9;
+  width: 62vw;
+  height: 51vh;
+  padding: 2rem;
+  border-radius: 5px;
+  @media (max-width: 992px) {
+    width: 70vw;
+    margin-top: -8rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    width: 44rem;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    width: 32.5rem;
+  }
+
+  @media (min-width: 300px) and (max-width: 576px) {
+    width: 95vw;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  table {
+    width: 80%;
+    border-color: transparent;
+
+    @media (max-width: 370px) {
+      font-size: 0.8rem;
+    }
+
+    --bs-table-striped-bg: transperent;
+    // @media (max-width: 992px) {
+    //   width: 70vw;
+    //   padding: 2rem;
+    // }
+
+    @media (min-width: 300px) and (max-width: 576px) {
+      width: 85vw;
+    }
+
+    td {
+      @media (min-width: 300px) and (max-width: 576px) {
+        padding: 0.5rem 0.2rem;
+      }
+    }
+
+    thead {
+      color: v.$color3;
+    }
+
+    tbody {
+      color: v.$color3;
+
+      tr {
+        cursor: pointer;
+        --bs-table-striped-color: v.$color3;
+
+        td {
+          color: v.$color3;
+        }
+      }
+    }
+  }
+}

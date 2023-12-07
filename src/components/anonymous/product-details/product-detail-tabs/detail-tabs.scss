@@ -1,0 +1,19 @@
+@use "../../../../assets/scss/variables" as v;
+
+.detail-tabs {
+  background-color: v.$color3;
+
+  .row {
+    background-color: white;
+    .nav-tabs {
+      padding-left: 2rem;
+      .nav-item {
+        background-color: v.$color4;
+      }
+    }
+
+    .tab-content {
+      padding: 0;
+    }
+  }
+}

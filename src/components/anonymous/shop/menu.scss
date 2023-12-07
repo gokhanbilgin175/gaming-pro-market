@@ -1,0 +1,61 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.menu {
+  padding: 2rem;
+  margin: 0;
+
+  .side-bar {
+    @media (max-width: 768px) {
+      @include m.flexbox(
+        $direction: row,
+        $align-items: center,
+        $justify-content: center
+      );
+    }
+    margin-bottom: 2rem;
+
+    @media (max-width: 540px) {
+      @include m.flexbox($direction: column, $align-items: center);
+    }
+  }
+
+  .right-menu {
+    .product-card {
+      > div {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .pagination {
+      @media (max-width: 540px) {
+        margin-left: 7rem;
+        text-align: center;
+        width: 50px;
+        height: 38px;
+      }
+    }
+
+    input {
+      @media (max-width: 768px) {
+      }
+    }
+
+    .input-group-text {
+      background-color: v.$color2;
+      color: v.$color9;
+      border-radius: 5px;
+    }
+
+    .pagination {
+      @include m.flexbox($justify-content: center);
+      margin-top: 2rem;
+    }
+
+    .btn-group {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}

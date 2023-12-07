@@ -1,0 +1,42 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.category-new {
+  .keyboard-new {
+    font-size: 0.9rem;
+  }
+
+  .input-category-search {
+    margin-top: 3rem;
+
+    .input-search {
+      background-color: v.$color8 !important ;
+      height: 3rem;
+    }
+    .active-btn {
+      input {
+        background-color: v.$color8;
+        font-size: 2rem;
+        padding: 1rem 0;
+
+        &:checked {
+          background-color: v.$color2;
+        }
+      }
+    }
+  }
+  .btn-category-new {
+    text-align: end;
+
+    .btn-delete {
+      color: v.$color9;
+      margin-right: 1rem;
+      width: 15%;
+    }
+
+    .btn-save {
+      color: v.$color9;
+      width: 15%;
+    }
+  }
+}

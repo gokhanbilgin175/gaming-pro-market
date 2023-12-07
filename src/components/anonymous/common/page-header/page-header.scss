@@ -1,0 +1,30 @@
+@use "../../../../assets/scss/variables" as v;
+
+.page-header {
+  background-image: url("../../../../assets/img/pageheader-bg.png");
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: v.$color2;
+    opacity: 0.95;
+    background: linear-gradient(to bottom, v.$color9, v.$color2 90%);
+  }
+
+  h1 {
+    color: v.$color4;
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem;
+    z-index: 5;
+    text-shadow: 0 0 60px v.$color5;
+  }
+}

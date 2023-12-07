@@ -1,0 +1,88 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.admin-dashboard {
+  [class^="col"] {
+    @include m.flexbox(row, center, center);
+
+    &:nth-child(6) {
+      .admin-right {
+        svg {
+          color: v.$color3;
+          position: absolute;
+          top: 40% !important;
+          right: 5%;
+          transform: translate(-5%, -40%);
+          font-size: 6rem;
+          z-index: 0;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  margin-top: 40px;
+  margin-bottom: 100px;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .admin-card {
+    background-color: v.$color8;
+    border-color: v.$color8;
+    width: 20rem;
+    height: 8.5rem;
+    position: relative;
+
+    .admin-all {
+      .admin-left {
+        @include m.flexbox(column, center);
+        height: 8.5rem;
+        margin-left: 2rem;
+        margin-top: 0.6rem;
+
+        .admin-left-top {
+          @include m.flexbox();
+
+          svg {
+            color: v.$color2;
+            font-size: 1.5rem;
+            stroke-width: 2;
+          }
+
+          p {
+            color: black;
+            font-weight: 500;
+            font-size: 1.1rem;
+            z-index: 1;
+          }
+        }
+
+        .admin-left-bottom {
+          color: black;
+          font-weight: 500;
+          font-size: 3rem;
+          letter-spacing: 0;
+        }
+      }
+
+      .admin-right {
+        svg {
+          color: v.$color3;
+          position: absolute;
+          top: 50%;
+          right: 5%;
+          transform: translate(-5%, -50%);
+          font-size: 6rem;
+          z-index: 0;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

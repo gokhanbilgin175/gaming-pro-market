@@ -1,0 +1,48 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+.order-content-info-table {
+  thead {
+    font-size: 0.9rem;
+    border: none;
+
+    th {
+      border: none !important;
+      text-align: center;
+
+      &:first-child {
+        text-align: start;
+      }
+    }
+  }
+
+  tbody {
+    font-size: 0.8rem !important;
+    border: none;
+
+    td {
+      border: none;
+      text-align: center;
+
+      &:first-child {
+        text-align: start;
+      }
+    }
+
+    .last-td {
+      position: relative;
+      width: 50px;
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: v.$color2;
+
+        &:hover {
+          color: v.$color1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.brands-new-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  .brand-new {
+    margin: 0;
+    padding: 0;
+
+    form {
+      padding: 0.5rem 1rem;
+      .image-area {
+        position: relative;
+        min-height: 200px;
+        background-color: v.$color8;
+
+        @media (min-width: 576px) and (max-width: 768px) {
+          width: 100%;
+        }
+
+        label {
+          margin: 0;
+          background-color: v.$color1;
+          color: v.$color9;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          padding: 0.5rem;
+          cursor: pointer;
+        }
+
+        .image-error {
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%);
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 992px) {
+        padding: 0.1rem 1rem;
+      }
+
+      @media (max-width: 768px) {
+        @include m.flexbox(
+          column,
+          $justify-content: center,
+          $align-items: center,
+          $gap: 0.5rem
+        );
+      }
+
+      .left-new {
+        padding: 0 3rem;
+        flex: 1;
+
+        @media (max-width: 1200px) {
+          padding: 0 2rem;
+          margin: 0;
+        }
+
+        @media (max-width: 768px) {
+          margin-top: 3rem;
+          padding: 1rem 0.2rem;
+        }
+
+        label.form-label {
+          margin-bottom: 0;
+          font-size: 1.2rem;
+          @media (max-width: 992px) {
+            margin-top: -1rem;
+          }
+        }
+        .input-search {
+          padding: 0.8rem;
+          background-color: v.$color8 !important;
+
+          @media (min-width: 768px) and (max-width: 992px) {
+            padding: 0.7rem 5rem;
+          }
+          @media (max-width: 768px) {
+            padding: 0.7rem 2rem;
+          }
+        }
+
+        .form-check {
+          margin-left: 0.1rem;
+          input {
+            background-color: v.$color8;
+            font-size: 2rem;
+            padding: 1rem 0;
+
+            &:checked {
+              background-color: v.$color2;
+            }
+          }
+        }
+        .btn-grup-edit {
+          @include m.flexbox($justify-content: flex-end, $gap: 1rem);
+
+          @media (max-width: 768px) {
+            @include m.flexbox(
+              $justify-content: center,
+              $align-items: center,
+              $gap: 1rem
+            );
+          }
+
+          button {
+            width: 25%;
+            color: white;
+            font-size: 1.2rem;
+
+            @media (max-width: 768px) {
+              width: 80%;
+              margin-top: 2rem;
+            }
+            @media (min-width: 768px) and (max-width: 1200px) {
+              width: 50%;
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

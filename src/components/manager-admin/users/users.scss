@@ -1,0 +1,42 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.user-list {
+  [class^="col"] {
+    &:first-child {
+      font-size: 0.9rem;
+    }
+  }
+
+  .searchbar {
+    .searchbar-input {
+      background-color: v.$color8 !important;
+      height: 3rem;
+    }
+
+    .btn-search {
+      &:hover {
+        background-color: v.$color2;
+        border-color: v.$color2;
+      }
+
+      svg {
+        color: v.$color9 !important;
+      }
+    }
+  }
+
+  .users-list-table {
+    .rdt_TableHeadRow {
+      border-bottom: none;
+    }
+
+    .rdt_TableRow {
+      font-size: 1rem !important;
+      &:hover {
+        background-color: v.$color4 !important;
+        cursor: pointer;
+      }
+    }
+  }
+}

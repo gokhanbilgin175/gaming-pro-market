@@ -1,0 +1,93 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+// New Products
+.new-products {
+  @media (max-width: 575px) {
+    padding: 0 4rem !important;
+  }
+
+  .section-top {
+    @include m.flexbox($justify-content: space-between, $align-items: center);
+    flex-wrap: wrap;
+
+    h4 {
+      &:hover {
+        color: v.$color2;
+      }
+    }
+  }
+
+  .section-content {
+    @include m.flexbox($align-items: center, $justify-content: flex-start);
+
+    @media (max-width: 575px) {
+      @include m.flexbox(
+        $align-items: center,
+        $justify-content: center,
+        $direction: column
+      );
+    }
+  }
+}
+
+// New Product Card
+.new-product-card {
+  .product-card {
+    .discount {
+      background-color: v.$color1;
+      color: v.$color9;
+      font-size: 0.8rem;
+      width: 40%;
+      margin-top: 15px;
+      padding: 0.3rem 0 0.3rem 0.3rem;
+      text-align: center;
+    }
+
+    .product-card-image {
+      padding: 3rem 3rem 1rem 3rem;
+    }
+
+    .product-card-prices {
+      @include m.flexbox($justify-content: space-around, $align-items: center);
+
+      h5 {
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: v.$color2;
+      }
+
+      h6 {
+        font-weight: 300;
+        font-size: 1rem;
+        color: v.$color3;
+        text-decoration: line-through;
+      }
+    }
+
+    .product-card-text {
+      padding: 0 2rem;
+    }
+
+    .btn-group {
+      @include m.flexbox();
+      .number-info {
+        background-color: rgb(255, 32, 32);
+        border-top: 1px solid v.$color2;
+        border-bottom: 1px solid v.$color2;
+        width: 70%;
+      }
+    }
+
+    .number-add {
+      width: 80%;
+      background-color: v.$color5 !important;
+      border: none;
+    }
+
+    .btn-add {
+      background-color: v.$color5;
+      border: none;
+    }
+  }
+}

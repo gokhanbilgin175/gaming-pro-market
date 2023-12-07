@@ -1,0 +1,35 @@
+@use "../../../../assets/scss/variables" as v;
+@use "../../../../assets/scss/mixins" as m;
+
+.order-main-info-container {
+  background-color: v.$color7;
+  padding: 0.7rem 0.8rem;
+  .status {
+    @include m.flexbox($direction: column, $align-items: stretch);
+  }
+
+  .form-select {
+    height: 3rem;
+    background-color: v.$color7;
+  }
+
+  .btn-status {
+    color: v.$color9;
+    font-weight: 300;
+    font-size: 1.3rem;
+
+    &:hover {
+      background-color: v.$color1;
+      color: v.$color9;
+      border-color: v.$color9;
+    }
+  }
+
+  .gap-div {
+    @include m.flexbox($justify-content: space-between);
+  }
+
+  .order-text {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,39 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.coupons-page{
+
+   .sc-jrcTuL{
+      cursor: pointer;
+      &:hover{
+         background-color: v.$color4;
+      }
+   }
+  .coupons-input{
+   margin-top: 3rem;
+  }
+   
+   .data-table{
+      margin-top: 3rem;
+      flex-wrap: wrap;
+
+
+     
+
+     
+   }
+
+   
+
+   input{
+    padding: 0.7rem;
+    background-color: v.$color4 ;
+   }
+   svg{
+    font-size: 1.4rem;
+   }
+   .btn-secondary{
+    color: white;
+    font-weight: 200;
+   }
+}

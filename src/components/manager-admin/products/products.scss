@@ -1,0 +1,123 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.products-row {
+  p {
+    text-align: left;
+    margin-left: 3rem;
+    flex: 1;
+  }
+}
+
+.products-icons {
+  font-size: 0.7rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.icons {
+  color: rgb(202, 3, 3);
+
+  span {
+    color: black;
+    padding-left: 0.1rem;
+  }
+}
+
+.select-products {
+  background-color: v.$color8 !important;
+  height: 3rem !important;
+}
+
+//**********************************************
+// .products-admin {
+//   .col-md-9 {
+//     @media (max-width: 575px) {
+//       padding: 0;
+//     }
+
+//     .admin-header {
+//       font-size: 0.9rem;
+//     }
+
+//     .products-search {
+//       .new-search {
+//         &:hover {
+//           background-color: v.$color5 !important;
+//         }
+//       }
+//       .new-brand {
+//         &:hover {
+//           background-color: v.$color10 !important;
+//         }
+//       }
+//       @media (max-width: 575px) {
+//         margin: 0;
+//       }
+//       form {
+//         .form-control {
+//           width: 250px;
+//           padding: 0.8rem;
+
+//           @media (max-width: 575px) {
+//             width: 5rem;
+//             padding: 0.25rem;
+//           }
+//         }
+
+//         @media (max-width: 575px) {
+//           padding: 0.25rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .products-show {
+//   .rdt_TableRow {
+//     font-size: 1rem !important;
+//     &:hover {
+//       background-color: v.$color4 !important;
+//       cursor: pointer;
+//     }
+//   }
+// }
+//******************************************************
+.admin-product {
+  .rdt_TableCell:first-child {
+    min-width: 20%;
+    justify-content: end;
+  }
+
+  .rdt_TableCell:nth-child(2) {
+    min-width: 60%;
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+  .rdt_TableCell:last-child {
+    min-width: 20%;
+  }
+}
+
+.products-row {
+  @include m.flexbox($direction: column, $gap: 1rem);
+
+  .first-group-icons,
+  .second-group-icons {
+    @include m.flexbox($gap: 1.5rem);
+  }
+}
+
+@media (max-width: 650px) {
+  .admin-product {
+    .rdt_TableCell:first-child {
+      min-width: 30%;
+    }
+
+    .rdt_TableCell:nth-child(2) {
+      min-width: 50%;
+    }
+    .rdt_TableCell:last-child {
+      min-width: 20%;
+    }
+  }
+}

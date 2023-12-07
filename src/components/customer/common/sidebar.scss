@@ -1,0 +1,76 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.sidebar {
+  position: sticky;
+  top: 10%;
+
+  @media (max-width: 992px) {
+    max-width: 45rem;
+    position: static;
+  }
+
+  @media (min-width: 300px) and (max-width: 576px) {
+    width: 95vw;
+    position: static;
+  }
+
+  .user-navbar {
+    border-radius: 5px;
+    background-color: v.$color9;
+    position: relative;
+
+    .user-icon {
+      position: absolute;
+      top: -65px;
+      left: 95px;
+
+      @media (min-width: 1200px) and (max-width: 1400px) {
+        left: 75px;
+      }
+      @media (min-width: 992px) and (max-width: 1200px) {
+        left: 55px;
+      }
+
+      @media (max-width: 992px) {
+        position: static;
+      }
+
+      svg {
+        background-color: v.$color8;
+        color: v.$color3;
+        font-size: 7rem;
+        border-radius: 3.5rem;
+        padding: 1rem;
+      }
+    }
+
+    .user-links {
+      @include m.flexbox($direction: column, $gap: 0.8rem);
+      margin-top: 3rem;
+      margin-left: 1rem;
+
+      @media (max-width: 992px) {
+        margin-top: 1rem;
+      }
+
+      a {
+        color: v.$color3;
+        font-weight: 500;
+        padding: 0;
+
+        &.active {
+          color: v.$color2;
+        }
+
+        &:last-child {
+          margin-bottom: 9rem;
+
+          @media (max-width: 992px) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

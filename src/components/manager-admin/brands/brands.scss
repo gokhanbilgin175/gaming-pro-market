@@ -1,0 +1,58 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.brands-admin {
+  margin: 0;
+  .col {
+    @media (max-width: 575px) {
+      padding: 0;
+    }
+
+    .admin-header {
+      font-size: 0.9rem;
+    }
+
+    .brands-search {
+      .form-control {
+        background-color: v.$color8 !important;
+        height: 3rem !important;
+      }
+
+      .new-search {
+        &:hover {
+          background-color: v.$color5 !important;
+        }
+      }
+      .new-brand {
+        &:hover {
+          background-color: v.$color10 !important;
+        }
+      }
+      @media (max-width: 575px) {
+        margin: 0;
+      }
+    }
+  }
+
+  .brands-show {
+    .rdt_TableHeadRow {
+      border-bottom: none;
+    }
+    .rdt_TableRow {
+      font-size: 1rem !important;
+      margin-left: 1rem;
+      &:hover {
+        background-color: v.$color4 !important;
+        cursor: pointer;
+      }
+
+      .eVPPvF {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      // .rdt_TableCell:nth-child(2) {
+      //   min-width: 300px;
+      // }
+    }
+  }
+}

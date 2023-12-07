@@ -1,0 +1,29 @@
+$color1: #060047;
+$color2: #eb455f;
+$color3: rgb(116, 116, 116);
+$color4: rgb(237, 237, 237);
+$color5: rgba(6, 0, 71, 0.5);
+$color6: rgba(235, 69, 95, 0.5);
+$color7: rgba(211, 211, 211, 0.25);
+$color8: rgba(211, 211, 211, 0.5);
+$color9: rgb(255, 255, 255);
+$color10: rgb(159, 44, 44);
+$color11: rgb(248, 249, 250); //Bootstrap light color code
+
+/* BOOTSTRAP */
+$primary: $color1;
+$secondary: $color2;
+$font-family-sans-serif: "Roboto";
+$navbar-light-color: $color1;
+$navbar-light-hover-color: $color2;
+$navbar-light-active-color: $color2;
+$nav-link-font-weight: 600;
+$border-radius: 0;
+$form-feedback-valid-color: $color1;
+$nav-tabs-link-active-color: $color2;
+$navbar-dark-active-color: $color2;
+
+/* SWEETALERT */
+$swal2-confirm-button-background-color: $color1;
+$swal2-cancel-button-background-color: $color2;
+$swal2-success: $color1;

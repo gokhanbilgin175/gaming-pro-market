@@ -1,0 +1,18 @@
+.manager-admin-template {
+  .p-5 {
+    @media (min-width: 992px) {
+      /* transition: all 1s; */
+      position: relative;
+      right: 0;
+    }
+
+    &.children-left {
+      @media (min-width: 992px) {
+        /* transition: all 1s; */
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+  }
+}

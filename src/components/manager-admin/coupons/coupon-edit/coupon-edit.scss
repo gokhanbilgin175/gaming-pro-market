@@ -1,0 +1,79 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+
+
+.form{
+    input{
+        background-color: v.$color7;
+        border: none;
+    }
+    select{
+        background-color: v.$color7;
+        border: none; 
+    }
+    .btn-secondary{
+        background-color: v.$color2;
+        color: white;
+    }
+
+    svg{
+     color: v.$color3;
+     background-color: v.$color3 ;
+    }
+
+    option{
+        width: 100%;
+    }
+    .btn-outline-secondary{
+
+        background-color: v.$color8 ;
+        color: v.$color3;
+        border: none;
+    }
+
+    .path-name{
+        margin-bottom: 3rem;
+
+       
+
+       
+        .form-check-input{
+            background-color: v.$color1;
+        }
+
+
+        
+    }
+    .check{
+        @include m.flexbox( $justify-content: center,$align-items:center);
+        
+
+        .form-check{
+            font-size: 1.5rem;
+            margin-top: 1rem;
+
+
+            .form-check-input{
+                 background-color: v.$color4;
+                color: v.$color3 !important;
+               
+          
+            }
+        }
+    }
+
+    
+
+    .button-group{
+        margin-top: 3rem;
+        @include m.flexbox(  $justify-content: flex-end,$gap:0.5rem);
+
+       
+
+        .btn{
+          padding: 0.2rem 3rem;
+        }
+    }
+
+}

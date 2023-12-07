@@ -1,0 +1,22 @@
+@use "../../../../../assets/scss/variables" as v;
+@use "../../../../../assets/scss/mixins" as m;
+
+.user-all-orders {
+  padding: 2rem 2rem;
+
+  .tab-content {
+    background-color: v.$color7 !important;
+  }
+
+  .rdt_TableRow {
+    background-color: v.$color7 !important;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .rdt_TableHeadRow {
+    background-color: v.$color7 !important;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+}

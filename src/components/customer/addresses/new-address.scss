@@ -1,0 +1,71 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.addresses-container {
+  .btn-new-box {
+    text-align: end;
+    .btn-new-address {
+      padding: 0.2rem 2.2rem;
+      border-radius: 5px;
+      font-weight: 300;
+      color: v.$color9;
+
+      &:hover {
+        background-color: v.$color1;
+        color: v.$color9;
+      }
+    }
+  }
+
+  .new-address-form {
+    background-color: v.$color9;
+    padding: 1rem 1rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 5px;
+
+    .form-control {
+      border-radius: 5px !important;
+    }
+
+    .form-second-row {
+      @include m.flexbox($justify-content: space-between, $gap: 1rem);
+      flex-wrap: wrap;
+
+      @media (max-width: 650px) {
+        @include m.flexbox($direction: column);
+        align-items: stretch;
+      }
+
+      .second-row-input {
+        flex: 1;
+      }
+    }
+
+    .btn-save {
+      border-radius: 5px;
+      color: v.$color9;
+      font-weight: 300;
+      padding: 0.2rem 1.5rem;
+
+      &:hover {
+        background-color: v.$color2;
+        color: v.$color9;
+        border-color: v.$color9;
+      }
+    }
+
+    .btn-cancel {
+      border-radius: 5px;
+      color: v.$color9;
+      font-weight: 300;
+      padding: 0.2rem 1.5rem;
+      margin-left: 0.5rem;
+
+      &:hover {
+        background-color: v.$color1;
+        color: v.$color9;
+        border-color: v.$color1;
+      }
+    }
+  }
+}

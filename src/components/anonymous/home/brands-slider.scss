@@ -1,0 +1,10 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.brands-slider-container {
+  background-color: v.$color9;
+  padding: 5rem 1rem;
+  .slider-image {
+    @include m.flexbox($justify-content: center, $align-items: center);
+  }
+}

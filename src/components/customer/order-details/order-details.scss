@@ -1,0 +1,20 @@
+@use "../../../assets/scss/variables" as v;
+
+.orders-situation {
+  gap: 2rem 4rem;
+  flex-wrap: wrap;
+  padding: 0;
+  align-items: center;
+  margin: 3rem 0rem;
+  font-size: large;
+}
+
+.btn-order {
+  &:hover {
+    font-size: 17px;
+    border: none;
+  }
+  span {
+    color: v.$color2;
+  }
+}

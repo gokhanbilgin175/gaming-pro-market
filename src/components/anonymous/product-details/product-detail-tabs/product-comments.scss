@@ -1,0 +1,95 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.comments {
+  margin: 1rem 4rem;
+  @media (max-width: 768px) {
+    margin: 1rem 2rem;
+  }
+
+  .btn.btn-primary {
+    background-color: white;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .comment-form {
+    background-color: v.$color8;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    @media (max-width: 768px) {
+      @include m.flexbox(column, $justify-content: start, $align-items: start);
+      padding: 1rem;
+    }
+
+    label {
+      color: black;
+      font-weight: 500;
+      text-align: center;
+
+      @media (max-width: 768px) {
+        margin: 0 0.5rem;
+        font-size: 1rem;
+      }
+    }
+
+    select {
+      margin-bottom: 1rem;
+      width: 20%;
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-left: 0.5rem;
+      }
+    }
+
+    .text-area {
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 0.5rem;
+      }
+    }
+
+    .btn-comment {
+      @include m.flexbox($justify-content: flex-end);
+      .btn-secondary {
+        width: 100px;
+        border-radius: 5px;
+        color: v.$color4;
+        @media (max-width: 768px) {
+          width: 80px;
+          margin-left: 1rem;
+          border-radius: 5px;
+          color: v.$color4;
+        }
+      }
+    }
+  }
+
+  .container {
+    padding: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    [class^="col"]:first-child {
+      background-color: rgb(204, 200, 200);
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      @include m.flexbox($justify-content: center, $align-items: center);
+
+      @media (max-width: 768px) {
+        text-align: start;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    [class^="col"]:last-child {
+      span {
+        color: v.$color2;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

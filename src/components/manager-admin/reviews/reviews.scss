@@ -1,0 +1,113 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.reviews {
+  [class^="col"] {
+    &:first-child {
+      font-size: 0.9rem;
+      svg {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  margin-bottom: 100px;
+
+  p {
+    margin: 0;
+  }
+
+  .review-searchbar {
+    .form-control {
+      width: 30rem;
+      background-color: v.$color7;
+    }
+
+    .form-select {
+      flex-basis: 90px;
+      background-color: v.$color8;
+    }
+  }
+
+  .review-layer {
+    @include m.flexbox(row, center, center, 1rem);
+    border-bottom: 1px solid v.$color3;
+    padding-bottom: 2rem;
+
+    @media (max-width: 550px) {
+      @include m.flexbox(column, center, center, 1rem);
+    }
+
+    .review-pic {
+      @include m.flexbox(row, center, flex-start);
+      height: 100%;
+
+      p {
+        background-color: v.$color8;
+        padding: 1rem;
+        border-radius: 99px;
+      }
+    }
+
+    .review-comment {
+      @include m.flexbox(column, flex-end, flex-start, 1rem);
+      padding-top: 1rem;
+
+      @media (max-width: 550px) {
+        @include m.flexbox(column, center, center, 1rem);
+        min-width: 238px;
+      }
+
+      .review-stars {
+        svg {
+          color: v.$color2;
+          font-size: 1.5rem;
+        }
+      }
+
+      p {
+        opacity: 0.7;
+      }
+    }
+
+    .review-form-icons {
+      @include m.flexbox(column, flex-start, flex-start, 0.5rem);
+      font-size: 1.3rem;
+      height: 100%;
+      padding-top: 3rem;
+
+      @media (max-width: 550px) {
+        padding-top: 0;
+        @include m.flexbox(column, center, center, 0.5rem);
+      }
+
+      .form-check-input {
+        cursor: pointer;
+        background-color: v.$color8;
+        background-image: url("../../../assets/img/inactive.svg");
+
+        &:checked {
+          background-color: v.$color8;
+          background-image: url("../../../assets/img/active.svg");
+        }
+      }
+
+      svg {
+        color: v.$color2;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .review-pagination {
+    .pagination {
+      .page-link {
+        padding: 0.2rem;
+        border: 0;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

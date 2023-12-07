@@ -1,0 +1,992 @@
+[33mcommit 231be8e9128c3d78e572fcd9e0c43d7ff05120c8[m[33m ([m[1;36mHEAD -> [m[1;32mgokhanbilgin[m[33m)[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Wed Mar 15 22:20:16 2023 +0300
+
+    v69
+
+[33mcommit 70efd83dec143b0b8935f4f96807bc3942866712[m[33m ([m[1;31morigin/gokhanbilgin[m[33m)[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Sun Mar 12 13:12:47 2023 +0300
+
+    v53
+
+[33mcommit b28ea9953d8b4dddbdc45ab153099856f9539752[m
+Merge: 53b833f b5e2f21
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Sun Mar 12 13:01:32 2023 +0300
+
+    v53
+
+[33mcommit 53b833f691fd457c761bfffd648cf927dbca04aa[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Sun Mar 12 12:43:01 2023 +0300
+
+    v53 coupons page
+
+[33mcommit b5e2f218152e3ef85bc4f63b02dbb34a5b6e2f03[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/ergin[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 0e4dba0 2262660
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Sat Mar 11 15:14:51 2023 -0700
+
+    Merge pull request #52 from erginadem/ergin
+    
+    v52 admin-user-edit-page
+
+[33mcommit 22626605a961446ed5838ae21f2df503f99a8087[m
+Merge: 0fccd06 0e4dba0
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Sat Mar 11 15:14:00 2023 -0700
+
+    v52- admin-users
+
+[33mcommit 0fccd069a40d50050d830d71cccf39f74687b1bf[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Sat Mar 11 15:12:04 2023 -0700
+
+    v52 admin-user-edit-page
+
+[33mcommit 0e4dba0ca0938c97817af0b871b46190bef5f03b[m
+Merge: 21e791c 264c7b8
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Sat Mar 11 19:23:49 2023 +0300
+
+    Merge pull request #51 from erginadem/zeynep
+    
+    v51 new-brand
+
+[33mcommit 264c7b889a6605fb64bad8174932907db1e27a3b[m[33m ([m[1;31morigin/zeynep[m[33m)[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Sat Mar 11 19:23:25 2023 +0300
+
+    v51 new-brand
+
+[33mcommit 21e791cdbd125603a59efc0f457c4c129fe7c2ee[m
+Merge: 2e6c51b d979916
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Sat Mar 11 01:25:25 2023 +0300
+
+    Merge pull request #50 from erginadem/zeynep
+    
+    v50-brands-page
+
+[33mcommit d9799167f8d97bf3dfef19afe87bafca1cc8ee76[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Sat Mar 11 01:24:44 2023 +0300
+
+    v50-brands-page
+
+[33mcommit 2e6c51bfa0142daf79fb8c09fe1cfcbbb3c60b4c[m
+Merge: 30645de 93a3887
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 10 15:39:08 2023 +0300
+
+    Merge pull request #49 from erginadem/beratucar
+    
+    v49-admin-reports
+
+[33mcommit 93a3887606385c8275b5585e0fb53af16768a6a3[m[33m ([m[1;31morigin/beratucar[m[33m)[m
+Merge: 06a45ef 30645de
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 10 15:39:02 2023 +0300
+
+    Merge branch 'master' into beratucar
+
+[33mcommit 06a45ef3a8bce217b9d1b1676035e7c04630d937[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Fri Mar 10 15:37:45 2023 +0300
+
+    v49-admin-reports
+
+[33mcommit 30645deebdbdc17a0eef23dd2d064efc16e111eb[m
+Merge: 3d81c04 6d6ff41
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Fri Mar 10 01:22:36 2023 -0700
+
+    Merge pull request #48 from erginadem/ergin
+    
+    Ergin
+
+[33mcommit 6d6ff415f2ddbc9082cae588fb249c80c148f05c[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Fri Mar 10 01:22:04 2023 -0700
+
+    v48- admin-users
+
+[33mcommit 13c918dd6b287e5f12d3bf656700c3ee7d90eac3[m
+Merge: a481510 3d81c04
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Thu Mar 9 23:48:33 2023 -0700
+
+    conflict
+
+[33mcommit a481510e1200e1dca38944317ee49ba0091eebe5[m
+Merge: 643eb0b 877c40e
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Thu Mar 9 23:43:02 2023 -0700
+
+    v48-fixed issues
+
+[33mcommit 3d81c04b2fcb2cf4b8ae4c4abf290fb92ed8dab9[m
+Merge: 877c40e 0b0cff6
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Thu Mar 9 23:38:55 2023 -0700
+
+    Merge pull request #47 from erginadem/ergin
+    
+    v47- admin-users-page
+
+[33mcommit 0b0cff63c156523ee115f75c335b324ca4e9f0df[m
+Merge: 643eb0b 877c40e
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Thu Mar 9 23:38:48 2023 -0700
+
+    Merge branch 'master' into ergin
+
+[33mcommit 643eb0b138ee28acde42ec29fc021db0dbba4bdb[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Thu Mar 9 23:35:47 2023 -0700
+
+    v47- admin-users-page
+
+[33mcommit 877c40e6e448b0fb80e0e329f9bc5060286bff07[m
+Merge: 4f6d49b 3e7d794
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Fri Mar 10 00:47:25 2023 +0300
+
+    Merge pull request #46 from erginadem/zeynep
+    
+    v46 brand-edit
+
+[33mcommit 3e7d7941892b08b78d67c30f703872b6843f044e[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Fri Mar 10 00:46:55 2023 +0300
+
+    v46 brand-edit
+
+[33mcommit 4f6d49b39289528b33f577198d7a38a8ad1662a4[m
+Merge: 54c9e88 0dce16e
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 9 16:59:28 2023 +0300
+
+    Merge pull request #45 from erginadem/beratucar
+    
+    v45-admin-reviews
+
+[33mcommit 0dce16ed24482908c5e5894a02220ea4745675ce[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Thu Mar 9 16:58:53 2023 +0300
+
+    v45-admin-reviews
+
+[33mcommit 54c9e88e1142c2bd9e018c0ccbe687f0f9967016[m
+Merge: 5372483 6339ff2
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 9 14:48:34 2023 +0300
+
+    Merge pull request #44 from erginadem/beratucar
+    
+    v44-admin-dashboard
+
+[33mcommit 6339ff2f7855b4d7dadab7e2dda85a4526fc140d[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Thu Mar 9 14:48:16 2023 +0300
+
+    v44-admin-dashboard
+
+[33mcommit 537248315427f8f4ce234afc0f34c3d6ce873151[m
+Merge: 1998d36 f32c90f
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 9 13:25:56 2023 +0300
+
+    Merge pull request #43 from erginadem/beratucar
+    
+    v43-admin-sidebar-new
+
+[33mcommit f32c90f4ae6389db01e76759bbb851c1f0542366[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Thu Mar 9 13:25:36 2023 +0300
+
+    v43-admin-sidebar-new
+
+[33mcommit 1998d36cc8e845dd4749bcd4255958f65c64000c[m
+Merge: d5629e0 c6947ee
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Thu Mar 9 01:23:34 2023 +0300
+
+    Merge pull request #42 from erginadem/zeynep
+    
+    v42-brands
+
+[33mcommit c6947ee074e0f53ee98cb39946693324612715bb[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Thu Mar 9 01:23:06 2023 +0300
+
+    v42-brands
+
+[33mcommit d5629e0199b416a200fef4113c80a93b5ce4e7b8[m
+Merge: 8b17b8c daddd39
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 9 00:45:42 2023 +0300
+
+    Merge pull request #41 from erginadem/ergin
+    
+    Ergin
+
+[33mcommit daddd39f61910cf6a476bf05cf1ea865f06337b0[m
+Merge: ecc589e 8b17b8c
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Wed Mar 8 14:35:15 2023 -0700
+
+    v42-undefined issue
+
+[33mcommit ecc589ef2aa347fd0dfc771680065a5ac7e19627[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Wed Mar 8 14:21:13 2023 -0700
+
+    v41-fixed a bug
+
+[33mcommit 8b17b8c6d677043027610f97d0d688a33513ae58[m
+Merge: 92024dd 1ad17bd
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Wed Mar 8 22:24:53 2023 +0300
+
+    Merge pull request #40 from erginadem/zeynep
+    
+    v40-brands-page
+
+[33mcommit 1ad17bd2790c9806c2b10eba68078591cd58c9b7[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Wed Mar 8 22:23:58 2023 +0300
+
+    v40-brands-page
+
+[33mcommit 92024dd0e2e200c4f08f1771aa78624743245815[m
+Merge: 662eb7a c00429e
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Wed Mar 8 19:56:26 2023 +0300
+
+    Merge pull request #39 from erginadem/beratucar
+    
+    v39-admin-sidebar
+
+[33mcommit c00429e4f65ce596071ba17c869ee9145dc5f7a2[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Wed Mar 8 19:56:03 2023 +0300
+
+    v39-admin-sidebar
+
+[33mcommit 662eb7a4135d7c16799978f510a3d92b8b81a582[m
+Merge: 974fcb1 b673c9a
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Wed Mar 8 14:19:42 2023 +0300
+
+    Merge pull request #38 from erginadem/beratucar
+    
+    v38-admin-template
+
+[33mcommit b673c9adaaa33c3007894f24622c76f1343af2de[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Wed Mar 8 14:19:21 2023 +0300
+
+    v38-admin-template
+
+[33mcommit 974fcb151a76281b5e2d3846183ee295bf58fdf1[m[33m ([m[1;31morigin/rumeysas[m[33m)[m
+Merge: ae0630d bb66e4d
+Author: gokhanbilgin175 <107429784+gokhanbilgin175@users.noreply.github.com>
+Date:   Tue Mar 7 23:55:07 2023 +0300
+
+    Merge pull request #37 from erginadem/gokhanbilgin
+    
+    v37-account page-profile page-shop page response
+
+[33mcommit bb66e4d25b18145816245866b84e9a530d688e3f[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Tue Mar 7 23:52:28 2023 +0300
+
+    v37-accond page-profile page-shop page response
+
+[33mcommit ae0630d4d379ecc824dc2901e0c0d86a4a1ece1d[m
+Merge: 65b0b0c 041a973
+Author: Rümeysa Seven <100487052+rumeysag@users.noreply.github.com>
+Date:   Tue Mar 7 23:46:27 2023 +0300
+
+    Merge pull request #36 from erginadem/rumeysas
+    
+    Rumeysas
+
+[33mcommit 041a9735fdc1b6ae69e4c089919dbbc649217d92[m
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Tue Mar 7 23:47:29 2023 +0300
+
+    v36 favourites page
+
+[33mcommit 48f5b833dd41288bd4e1f6a747dcb2bc01c9ee08[m
+Merge: 601f01e 65b0b0c
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Tue Mar 7 23:17:25 2023 +0300
+
+    Merge branch 'master' into rumeysas
+
+[33mcommit 65b0b0cb9c1b2149dee3dbccad3d54c0dbfdcdaf[m
+Merge: 5bd95b6 d992e73
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Tue Mar 7 15:43:56 2023 +0300
+
+    Merge pull request #35 from erginadem/zeynep
+    
+    v35-orders-media
+
+[33mcommit d992e73d6527f33339df513e61aae36c4e1e78ef[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Mar 7 15:43:23 2023 +0300
+
+    v35-orders-media
+
+[33mcommit 601f01e113085acd03a41076d76144cf4e417e3a[m
+Merge: 18089a5 5bd95b6
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Tue Mar 7 00:29:41 2023 +0300
+
+    Merge branch 'master' into rumeysas
+
+[33mcommit 5bd95b6397509b76f7e620cfdd3a147f804db8d5[m
+Merge: 5c6c7a2 dac12fc
+Author: Rümeysa Seven <100487052+rumeysag@users.noreply.github.com>
+Date:   Tue Mar 7 00:25:38 2023 +0300
+
+    Merge pull request #34 from erginadem/rumeysas
+    
+    v34 favourites-hover-change
+
+[33mcommit 5c6c7a2a7667743db0811a40fb7ef2a5f442b7e9[m
+Merge: d658732 8577400
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Tue Mar 7 00:24:02 2023 +0300
+
+    Merge pull request #33 from erginadem/zeynep
+    
+    v35 orders-page
+
+[33mcommit 8577400b9454d1ebcdfa3bb6176da53f6153879d[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Mar 7 00:21:57 2023 +0300
+
+    v35 orders-page
+
+[33mcommit 18089a57cc4df5235289ab4986a94c14f7cd7be3[m
+Merge: dac12fc d658732
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Tue Mar 7 00:19:27 2023 +0300
+
+    Merge branch 'master' into rumeysas
+
+[33mcommit d658732f33dfe4793fe8138cde016458995ee387[m
+Merge: 333a37c 5387588
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Mon Mar 6 14:07:22 2023 -0700
+
+    Merge pull request #32 from erginadem/revert-31-zeynep
+    
+    Revert "Zeynep"
+
+[33mcommit 53875888e2593005bfc994a5ff75735d54d78e9f[m[33m ([m[1;31morigin/revert-31-zeynep[m[33m)[m
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Mon Mar 6 14:07:09 2023 -0700
+
+    Revert "Zeynep"
+
+[33mcommit dac12fc401eebd576004603f0671b03f311db0c4[m
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Mon Mar 6 23:57:38 2023 +0300
+
+    v34 favourites-hover-change
+
+[33mcommit 333a37ce42615b22785c9dfa1ef23a750a727e8a[m
+Merge: 2c8275d a9cbd0f
+Author: Zeynep <107368806+Zeynepgcr@users.noreply.github.com>
+Date:   Mon Mar 6 23:43:53 2023 +0300
+
+    Merge pull request #31 from erginadem/zeynep
+    
+    Zeynep
+
+[33mcommit a9cbd0f63496aa4516ecf5e3bb55661dbe59dddd[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Mon Mar 6 23:39:47 2023 +0300
+
+    v33 orders-page
+
+[33mcommit 2c8275da80045a4020b9bc17748179b87ed4bed8[m
+Merge: 6f34ffc b69f01e
+Author: Rümeysa Seven <100487052+rumeysag@users.noreply.github.com>
+Date:   Mon Mar 6 23:23:07 2023 +0300
+
+    Merge pull request #30 from erginadem/rumeysas
+    
+    v32 favourites-page
+
+[33mcommit b69f01e4651393f7ae190e426509810e9ec3c894[m
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Mon Mar 6 23:17:06 2023 +0300
+
+    v32 favourites-page
+
+[33mcommit 6f34ffcc2df00eb1245662de183aef2c0ee28f51[m
+Merge: dc3fe32 64dad79
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Mon Mar 6 10:10:54 2023 -0700
+
+    Merge pull request #29 from erginadem/ergin
+    
+    Ergin
+
+[33mcommit 64dad7935b3eed708d1079fa9f58410a6b51f3fa[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Mon Mar 6 10:08:34 2023 -0700
+
+    v-31 test
+
+[33mcommit ed57ec821d17597115b0cab1aaad73cf6920ee3a[m
+Merge: 0c6849b dc3fe32
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Mon Mar 6 15:39:12 2023 +0300
+
+    v31 orders-page-2
+
+[33mcommit 0c6849b558387fa0f105821ab2f0948ddffad1e8[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Mon Mar 6 14:10:33 2023 +0300
+
+    v31 -orderspage end
+
+[33mcommit 9ee1bedb98ffa56ab957a55f9a4841231da881bd[m
+Merge: eb208fd dc3fe32
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Sun Mar 5 23:56:08 2023 -0700
+
+    v32- undefined githu issue
+
+[33mcommit eb208fd64282c396bb16339ef088972411487e0e[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Sun Mar 5 23:51:55 2023 -0700
+
+    v31-updated customer-addresses component
+
+[33mcommit dc3fe324fbdc75514308d53f769fb3b5423a9970[m
+Merge: e1f906a 27a544f
+Author: omer mirahmetoglu <117539670+omermirahmetoglu@users.noreply.github.com>
+Date:   Mon Mar 6 09:42:33 2023 +0300
+
+    Merge pull request #28 from erginadem/omermir
+    
+    v30 omermir -> order-details and about updated
+
+[33mcommit 27a544f425cbca9cc4931bdbdd181e40557648bc[m[33m ([m[1;31morigin/omermir[m[33m)[m
+Author: omermir <omermirahmetoglu@gmail.com>
+Date:   Mon Mar 6 09:41:46 2023 +0300
+
+    v30 omermir -> order-details and about updated
+
+[33mcommit e1f906aa66c5325cea5049d89190898a4769c57b[m
+Merge: cb4f434 bf5897e
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Sun Mar 5 16:33:50 2023 +0300
+
+    Merge pull request #27 from erginadem/beratucar
+    
+    v29-some-fixes
+
+[33mcommit bf5897e929570f0871d886a18567b77d9a4791d2[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Sun Mar 5 16:33:18 2023 +0300
+
+    v29-some-fixes
+
+[33mcommit cb4f43435f63ffde9b7e3fb7ba7d33db62aeb30a[m
+Merge: 345712d 7bd6547
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Sun Mar 5 16:01:53 2023 +0300
+
+    Merge pull request #26 from erginadem/beratucar
+    
+    v28-cart-sidebar-and-common-pages-added
+
+[33mcommit 7bd6547a0f837144c5a62c0ab076b101019919a2[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Sun Mar 5 16:01:30 2023 +0300
+
+    v28-cart-sidebar-and-common-pages-added
+
+[33mcommit 345712d2e0a28e92ddb5bc22bf6d631c00ab476c[m
+Merge: 217ac45 1b07d3f
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 21:42:43 2023 +0300
+
+    Merge pull request #25 from erginadem/zeynep
+    
+    Zeynep
+
+[33mcommit 1b07d3fbffe32f2674d82fff2eabbb63fb565880[m
+Merge: ebafd02 217ac45
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Fri Mar 3 21:41:09 2023 +0300
+
+    Merge branch 'master' into zeynep
+
+[33mcommit ebafd0274a9e2c2b2beb416218bc9769a71d2e7e[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Fri Mar 3 21:38:55 2023 +0300
+
+    v29-forgot-password
+
+[33mcommit 217ac45feec123b53909d342c7aa395ddbf38703[m
+Merge: 26804ce 4ea692d
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 20:50:51 2023 +0300
+
+    Merge pull request #24 from erginadem/ergin
+    
+    v27- edited-custom-routes
+
+[33mcommit 4ea692d25534842043afb4e437dec7cfbd6def17[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Fri Mar 3 10:49:21 2023 -0700
+
+    v27- edited-custom-routes
+
+[33mcommit 6035bf0d85c4cc470bbe270282ceb2dcfdbb2095[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Fri Mar 3 20:47:12 2023 +0300
+
+    v28
+
+[33mcommit 26804ce67f80f05dec744cc4f09af39c85f98b9a[m
+Merge: 97dc043 7ddf77d
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 20:43:33 2023 +0300
+
+    Merge pull request #23 from erginadem/rumeysas
+    
+    v26
+
+[33mcommit 7ddf77df1a2e803eb043a34b6b364876c16b6285[m
+Merge: 6d80a2a 97dc043
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 20:43:23 2023 +0300
+
+    Merge branch 'master' into rumeysas
+
+[33mcommit 6d80a2a47f40d47878b1c709525f8123d5fb5f30[m
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Fri Mar 3 20:34:44 2023 +0300
+
+    v26
+
+[33mcommit 97dc043368eceb371bb21fd962590c35c6715970[m
+Merge: d48fb65 428ee7b
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 20:19:28 2023 +0300
+
+    Merge pull request #22 from erginadem/ergin
+    
+    Ergin
+
+[33mcommit 428ee7b458a279212cd21ab6af9e6883a0190f63[m
+Merge: eddd47d d48fb65
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Fri Mar 3 10:17:13 2023 -0700
+
+    v-26 customer-address
+
+[33mcommit eddd47d369c64983cc399287860dbae2e8239a01[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Fri Mar 3 10:11:36 2023 -0700
+
+    v25- customer-address-page
+
+[33mcommit d48fb65f7ab25d6f9a63a8d925a28e70d8df83c4[m
+Merge: 4fae8f9 f2592af
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 19:52:05 2023 +0300
+
+    Merge pull request #21 from erginadem/beratucar
+    
+    v24-cart
+
+[33mcommit f2592af662948c2715ccf11c49409eb1d2a7f85d[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Fri Mar 3 19:51:06 2023 +0300
+
+    v23
+
+[33mcommit 4fae8f9b1565dcc152d4b000fb638205be0d7c4b[m
+Merge: 05712a7 7b5c4a6
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 15:48:06 2023 +0300
+
+    Merge pull request #20 from erginadem/beratucar
+    
+    v23-customer-sidebar
+
+[33mcommit 7b5c4a6b02a5cf26757fc622a3f17e977896d199[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Fri Mar 3 15:47:48 2023 +0300
+
+    v23-customer-sidebar
+
+[33mcommit 05712a79c845bf95be020494a0b192cbc19eb0fa[m
+Merge: bd86340 dc2c9ed
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Mar 3 15:46:33 2023 +0300
+
+    Merge pull request #19 from erginadem/zeynep
+    
+    Zeynep
+
+[33mcommit d71baf34323a2f9da5fd3ae9101adbd0faf48c2b[m
+Merge: dc2c9ed bd86340
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Thu Mar 2 21:20:18 2023 +0300
+
+    Merge branch 'master' into zeynep
+
+[33mcommit dc2c9ed5439e58b660c79c2206dfc21c05d94cba[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Thu Mar 2 21:18:56 2023 +0300
+
+    v22-product-details
+
+[33mcommit bd863403497122cf812201095b07702031ee8621[m
+Merge: 2f10cc4 43d2b64
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 2 20:15:34 2023 +0300
+
+    Merge pull request #18 from erginadem/beratucar
+    
+    v21-customer-template
+
+[33mcommit 43d2b6491b3aa7a4345fc71328bce48838576ef8[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Thu Mar 2 20:15:01 2023 +0300
+
+    v21-customer-template
+
+[33mcommit 2f10cc40da7084efc7046583d8920fe2a8963c4a[m
+Merge: bbd30fe c7fc8dc
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 2 19:03:29 2023 +0300
+
+    Merge pull request #17 from erginadem/gokhanbilgin
+    
+    v19-card düzenlemesi
+
+[33mcommit bbd30fe9591801eb7fa290d60e7cc9d4db8fe8d4[m
+Merge: 0d1c655 b0f0465
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Thu Mar 2 18:56:04 2023 +0300
+
+    Merge pull request #16 from erginadem/beratucar
+    
+    v18-contact-page-fixed
+
+[33mcommit b0f0465302e981d91d737be06d570b3529d26d59[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Thu Mar 2 18:55:27 2023 +0300
+
+    v18-contact-page-fixed
+
+[33mcommit c7fc8dceb71ee05bc0f14b8cf04aadce9e8a1f76[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Thu Mar 2 15:59:43 2023 +0300
+
+    card düzenlemesi
+
+[33mcommit 0d1c6552c7602ca94a58699a6fa09d9a04411a47[m
+Merge: 9624df5 33a5f62
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Thu Mar 2 01:45:00 2023 -0700
+
+    Merge pull request #15 from erginadem/ergin
+    
+    v17- fixed issues header-menu app.js bg-color
+
+[33mcommit 33a5f62531377baac0362395c433ebcc47c00498[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Thu Mar 2 01:42:03 2023 -0700
+
+    v17- fixed issues header-menu app.js bg-color
+
+[33mcommit f0dcf1bc9fefd56abaceadc3df34895edfdda899[m
+Merge: bb587c5 9624df5
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Wed Mar 1 19:37:57 2023 +0300
+
+    v18 product-details
+
+[33mcommit bb587c55fc796f780cd17c7f82affc7e89af08b3[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Wed Mar 1 19:29:42 2023 +0300
+
+    v17 product-details
+
+[33mcommit 9624df593438fb256ab43b919a3e974973acafe1[m
+Merge: 8ecedd6 21cf22f
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Wed Mar 1 16:02:16 2023 +0300
+
+    Merge pull request #14 from erginadem/beratucar
+    
+    v16-fixes
+
+[33mcommit 21cf22f1ed0944793b8b86c2ceeb65ab4443528f[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Wed Mar 1 16:00:56 2023 +0300
+
+    v16-fixes
+
+[33mcommit 8ecedd6bd9a2c2ee6bcc3d555d101d71275fed74[m
+Merge: 6def914 c40ed6e
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Tue Feb 28 13:43:15 2023 -0700
+
+    Merge pull request #13 from erginadem/ergin
+    
+    v15-updated featured and new product components / uninstalled slick
+
+[33mcommit c40ed6e4a4f5b271bc4d9d48dbb283972322ea16[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Tue Feb 28 13:42:09 2023 -0700
+
+    v15-updated featured and new product components / uninstalled slick-carrousel
+
+[33mcommit 8ddbeca5831eb94441030568369056342f3327f1[m
+Merge: 80de192 6def914
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Feb 28 23:21:34 2023 +0300
+
+    Merge branch 'master' into zeynep
+
+[33mcommit 80de192d7035a5fbcdaddeba035a6d06ebd8ebad[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Feb 28 23:20:21 2023 +0300
+
+    v15
+
+[33mcommit 6def91449176eff6039d0eff6d37a8be9184d1b7[m
+Merge: 37249af b466ce6
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Tue Feb 28 12:21:35 2023 -0700
+
+    Merge pull request #12 from erginadem/ergin
+    
+    v14- deleted history folder
+
+[33mcommit b466ce6fa0e6c7632b7ccceccd2b7641f3d9290a[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Tue Feb 28 12:20:41 2023 -0700
+
+    v14- deleted history folder
+
+[33mcommit 37249afef43f1e8f099272f439721ff7f7b1c867[m
+Merge: 987b5e9 d267937
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Tue Feb 28 21:34:28 2023 +0300
+
+    Merge pull request #11 from erginadem/beratucar
+    
+    v13-bug-fixes
+
+[33mcommit d267937c638af208e7cd0e2257eb67b6b6c75781[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Tue Feb 28 21:34:06 2023 +0300
+
+    v13-bug-fixes
+
+[33mcommit 987b5e9c7a1691c0ba78775cbdec2c803101cd72[m
+Merge: b381c07 f9bfd41
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Tue Feb 28 20:56:27 2023 +0300
+
+    Merge pull request #10 from erginadem/ergin
+    
+    Ergin
+
+[33mcommit f9bfd414e6667cb651e8855053c6a40266b4842c[m
+Merge: 6c90958 b381c07
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Tue Feb 28 10:55:21 2023 -0700
+
+    v12-home-page/header-menu
+
+[33mcommit 6c90958af7ce122e64a1d3cb872b4df1f815f1cf[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Tue Feb 28 10:49:33 2023 -0700
+
+    v12-home-page/header-menu
+
+[33mcommit b381c070f6d115e59e5d94d98cfe15a8e0d85450[m
+Merge: 7585744 e412a39
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Tue Feb 28 20:48:04 2023 +0300
+
+    Merge pull request #9 from erginadem/rumeysas
+    
+    v11-login/register
+
+[33mcommit e412a3999273979b0800b92189b971611a08aa8b[m
+Author: rumeysag <eudeveloper0@gmail.com>
+Date:   Tue Feb 28 20:49:19 2023 +0300
+
+    v11-login/register
+
+[33mcommit 75857442e0939eb815560dcab665d572228925db[m
+Merge: 57ede52 d79862e
+Author: omer mirahmetoglu <117539670+omermirahmetoglu@users.noreply.github.com>
+Date:   Tue Feb 28 20:44:13 2023 +0300
+
+    Merge pull request #8 from erginadem/omermir
+    
+    Omermir
+
+[33mcommit d79862e4b418f760e455aa16fd59d8034b682065[m
+Author: omermir <omermirahmetoglu@gmail.com>
+Date:   Tue Feb 28 20:42:40 2023 +0300
+
+    v10 footer/pageheader
+
+[33mcommit ec3c5851ce8fe03a829bda31837888720a58a991[m
+Merge: 77f6672 57ede52
+Author: omermir <omermirahmetoglu@gmail.com>
+Date:   Tue Feb 28 20:39:17 2023 +0300
+
+    Merge branch 'master' into omermir
+
+[33mcommit 77f66725d62ad01bf33e629ee58391a6e4e32bd5[m
+Author: omermir <omermirahmetoglu@gmail.com>
+Date:   Tue Feb 28 20:38:26 2023 +0300
+
+    v10- footer/pgheader
+
+[33mcommit 57ede5204c36385c8612d813c4dce3764dfdf945[m
+Merge: bcfec48 fbf6584
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Tue Feb 28 20:29:29 2023 +0300
+
+    Merge pull request #7 from erginadem/zeynep
+    
+    Zeynep
+
+[33mcommit fbf6584515f5ab72c9a0b740dbd9930f318ae62f[m
+Merge: 876a693 bcfec48
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Feb 28 20:28:40 2023 +0300
+
+    v9-product-details
+
+[33mcommit 876a6935e94f8e53674c8d2766ea7179b612a390[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Tue Feb 28 20:18:44 2023 +0300
+
+    v8-product-detail
+
+[33mcommit bcfec485d0bf9ba42a98f6fde43872ea9a22d995[m
+Merge: dae0fe4 5a1a095
+Author: gokhanbilgin175 <107429784+gokhanbilgin175@users.noreply.github.com>
+Date:   Tue Feb 28 20:08:37 2023 +0300
+
+    Merge pull request #6 from erginadem/gokhanbilgin
+    
+    v7-shop-page
+
+[33mcommit 5a1a0958c483a9936de85af0eceedaacb540e8e3[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Tue Feb 28 20:05:41 2023 +0300
+
+    V7-shop-page
+
+[33mcommit 61b0f86a2f2b00a862cec8a4071c0efec49167fb[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Sun Feb 26 21:36:47 2023 +0300
+
+    v1
+
+[33mcommit dae0fe407a39af21a5dfd90e6aa9aac9a7c2b315[m
+Merge: 3d140c4 532a0ce
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Fri Feb 24 21:58:15 2023 +0300
+
+    Merge pull request #5 from erginadem/beratucar
+    
+    v6-ContactPage
+
+[33mcommit 532a0ce87f5c0f5883eab8fc076c1a772634eb1a[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Fri Feb 24 21:56:32 2023 +0300
+
+    v6-ContactPage
+
+[33mcommit 3d140c43ceec100955df7dab4ddedb7aa86c449b[m
+Merge: fd2dfa5 0d2286e
+Author: Berat Uçar <116433887+beratucardy@users.noreply.github.com>
+Date:   Wed Feb 22 23:34:55 2023 +0300
+
+    Merge pull request #4 from erginadem/beratucar
+    
+    v5
+
+[33mcommit 0d2286e48a5f2ada0cf68444efcf3040e643c497[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Wed Feb 22 23:28:43 2023 +0300
+
+    v5
+
+[33mcommit fd2dfa53f17be1431cd4f3a77116555fdcd4252d[m
+Merge: b22faef 6b810ef
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Wed Feb 22 11:38:14 2023 -0700
+
+    Merge pull request #3 from erginadem/zeynepg
+    
+    v4- Edited Privacy Policy Page
+
+[33mcommit 6b810efd708c31df41c0cd7ab08e7816838ae152[m
+Author: Zeynepgcr <zgocer_26@hotmail.com>
+Date:   Wed Feb 22 21:35:04 2023 +0300
+
+    v4 PrivacyPolicyPage
+
+[33mcommit b22faef209fc02537827a902341a674e75b14fc9[m
+Merge: c8a14d6 3e97e7d
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Wed Feb 22 11:23:54 2023 -0700
+
+    Merge pull request #2 from erginadem/gokhanbilgin
+    
+    v3- edited login page
+
+[33mcommit 3e97e7d48b34d22404bdcbd13b29a4f21c6ac66b[m
+Author: gokhanbilgin175 <gokhanbilgin@gmail.com>
+Date:   Wed Feb 22 21:16:58 2023 +0300
+
+    v3 gokhanbilgin
+
+[33mcommit c8a14d6c9f578eb90d1e8241c936e90f439d17c9[m
+Merge: 3bd3a32 c0c5d89
+Author: erginadem <53975722+erginadem@users.noreply.github.com>
+Date:   Wed Feb 22 10:51:40 2023 -0700
+
+    Merge pull request #1 from erginadem/beratucar
+    
+    v2 beratucar
+
+[33mcommit c0c5d893cb1a0238367655cbabb04589605b7044[m
+Author: Berat Uçar <ownertr55@gmail.com>
+Date:   Wed Feb 22 20:44:10 2023 +0300
+
+    v2 beratucar
+
+[33mcommit 3bd3a328a7e869fee64d133a4857acbbf083560d[m
+Author: Ergin Adem <erginadem@Ergins-MacBook-Air.local>
+Date:   Wed Feb 22 10:10:32 2023 -0700
+
+    v1- created main template of the project

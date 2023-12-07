@@ -1,0 +1,33 @@
+@use "../../../assets/scss/mixins" as m;
+@use "../../../assets/scss/variables" as v;
+
+.img-plus-icon {
+  font-size: 3rem;
+  color: v.$color2;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-left: 42%;
+}
+
+.edit-img {
+  position: relative;
+  padding: 1rem;
+
+  &:hover .img-minus-icon {
+    display: block;
+  }
+}
+.img-minus-icon {
+  color: v.$color2;
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.product-edit-img {
+  background-color: v.$color8;
+  @include m.flexbox($justify-content: center, $gap: 2rem);
+  padding: 1.3rem 0.5rem;
+}

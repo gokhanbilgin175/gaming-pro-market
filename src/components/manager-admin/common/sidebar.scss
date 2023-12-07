@@ -1,0 +1,76 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.admin-navbar {
+  @media (min-width: 992px) {
+    /* transition: left 1s; */
+    height: 100vh;
+    align-items: flex-start !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 280px;
+
+    &.admin-left {
+      left: -280px;
+    }
+  }
+
+  .container {
+    @media (max-width: 576px) {
+      padding: 0 2rem;
+    }
+
+    .admin-brand {
+      .navbar-brand {
+        img {
+          width: 7rem;
+        }
+      }
+    }
+  }
+
+  .container {
+    @media (min-width: 992px) {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+
+    .admin-brand {
+      @media (min-width: 992px) {
+        text-align: center;
+        width: 100%;
+
+        .navbar-brand {
+          img {
+            width: 7rem;
+            margin: 2rem 0;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-nav {
+    padding-top: 1.5rem;
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+      flex-direction: column !important;
+    }
+
+    a {
+      color: v.$color4;
+      font-weight: 500;
+      font-size: large;
+      padding: 0;
+      margin: 0;
+      padding-left: 2rem !important;
+      padding-bottom: 0.5rem;
+
+      &:hover {
+        color: v.$color2;
+      }
+    }
+  }
+}

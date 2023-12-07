@@ -1,0 +1,33 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+
+.admin-icon {
+  margin-left: 280px;
+  @include m.flexbox(row, flex-start, center, 1rem);
+  padding: 1rem;
+  background-color: v.$color8;
+  /* transition: all 1s; */
+
+  &.admin-icon-left {
+    margin-left: 0;
+  }
+
+  @media (max-width: 992px) {
+    display: none;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  svg {
+    color: v.$color2;
+    padding: 0.5rem;
+    background-color: v.$color9;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
